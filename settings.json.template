@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "JANETACOIN",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Janetacoin",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "JTA",
 
   // logo
   "logo": "/images/logo.png",
@@ -53,9 +53,9 @@
 
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "username": "darkcoinrpc",
-    "password": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": 1996,
+    "username": "user",
+    "password": "pwd"
   },
 
   // confirmations
@@ -95,10 +95,10 @@
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 1337,
-    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+    "blockindex": 6,
+    "blockhash": "2e029945c27fca57add84daca2bf293401d919dd7cdc42e870dee2f49c92e42c",
+    "txhash": "ae6d5f38b16e3db5e8ce750a0c9c527c754c189b5fa4f4f7b9be9106e693dcd0",
+    "address": "ltc1qe9qyrk8ekfven4ymxu5zqyef9n7847gljy32ah"
   },
 
   // market settings
@@ -135,8 +135,8 @@
   "youtube": "youryoutubechannel",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "ff316c4e6147828f66448e43b061a222bf99bad505d4aa0f26d24a2840ea703a",
+  "genesis_block": "ddd5e7aecc2395d7713ba46de5a7c47d78af9a5f5da706ff555ae93c97378042",,
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
